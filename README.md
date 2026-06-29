@@ -7,7 +7,7 @@ The board is made to connect to the Orande LiveObjects servver from which the da
 
 The programming of the pcb was done in STM32CubeIDE and all communications between The GPS, Lora and COM port were UART communications.
 
-# The Electrical Scheme
+# The Electrical Schematic
 
 <img width="1365" height="947" alt="image" src="https://github.com/user-attachments/assets/821140e4-9348-4c54-9e7a-1efc7d389eb7" />
 
