@@ -1,11 +1,12 @@
 # Project description
 
-In this project I have made the design for a PCB that will keep track of the position of a target that it is mounted to.
+In this project i have designed and coded a shield for the STM32 Nucleo board L476RG.
 
-It is the prototype of a tracker that will update the position using a GPS sensor and a LoRa modem for communication with a server.
-The board is made to connect to the Orande LiveObjects servver from which the data is put inside a MongoDB database and later a template is made in Grafana with the longitude and latitude coordinates.
+The shield is the prototype of a tracker that will update the position using a GPS sensor and a LoRa modem for communication with a server.
+The board is made to connect to the Orange LiveObjects server from which the data is put inside a MongoDB database and later a template is made in Grafana with the longitude and latitude coordinates.
+Two Python scripts are present in the project. One for getting the data from the LiveObjects through MQTT protocol, and the other links the data received to a endpoint. That endpoint in later linked to a Grafana JSON plugin to gather that data.
 
-The programming of the pcb was done in STM32CubeIDE and all communications between The GPS, Lora and COM port were UART communications.
+The programming of the board was done in STM32CubeIDE and all communications between The GPS, Lora and COM port were UART communications.
 
 # The Electrical Schematic
 
